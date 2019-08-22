@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+}
+
+.container {
+  background: #cfcfcf;
+  max-width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+  border: 1px solid #adadad;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  margin 0px;
+  padding: 0px;
+  line-height: 10px;
+  font-size: 38px;
+  font-family: 'Source Code Pro', monospace;
+  color: #363636;
+  user-select: none;
+}
+
+p{
+  margin 0px;
+  padding: 0px;
+  font-size: 12px;
+  line-height: 10px;
+  user-select: none;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  background-color: #cfcfcf;
+}
+
+#input {
+  margin: 0;
+  padding: 10px 10px;
+  width: 80%;
+  float: left;
+  border: none;
+  background-color: #cfcfcf;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: lowercase;
+  user-select: none;
+}
+
+input, button:focus {
+    outline: none;
+}
+
+#addItem {
+  margin: 0
+  padding: 0;
+  width: auto;
+  height: 40px;
+  background-color: #cfcfcf;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.list {
+  margin: 0;
+  padding: 0px;
+  height: 87vh;
+  background: #f7f7f7;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+  padding: 5px 5px;
+  list-style: none;
+  text-align: left;
+  cursor: pointer;
+  text-transform: lowercase;
+  user-select: none;
+}
+
+ul li:hover {
+  background-color: white
+}
+
+ul li.done{
+  color: #cfcfcf;
+  text-decoration: line-through;
+}
+
+.removeItem {
+  margin: 0;
+  padding: 0px 8px 3px 8px;
+  position: relative;
+  color: red;
+  float: right;
+  font-weight: bold;
+}
+
+.removeItem:hover {
+  color: white;
+  background: #cfcfcf;
+}
